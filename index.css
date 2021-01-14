@@ -1,20 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono:wght@600&display=swap');
+
 .intro{
     text-align:center;
-    border:1px solid black;
     margin-left: 500px;
     display:inline-block;
     font-size:24px;
     margin-bottom:100px;
 }
-.headerPic{
-    width:200px;
-    border-radius: 100px;
-    margin:100px;
+.intro h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:40px;
 }
-.nav a{
+.intro p{
+    font-family: 'Roboto Mono', monospace;
+}
+.headerPic{
+    width:300px;
+    border-radius: 200px;
+    margin-left:100px;
+}
+
+nav a{
+    display:inline-block;
     text-align:center;
-    padding:5px;
+    padding:10px;
     margin:100px 200px;
-    border:1px solid black;
     border-radius:5px;
+    text-decoration:none;
+    color:white;
+}
+a.plan{
+    background-color:#FF764E;
+}
+a.learn{
+    background-color:#5ED3EB;
+    margin-top:100px;
+}
+a.get{
+    background-color:#FFCD69;
+}
+.description{
+    background-color:#DDB9A3;
+    padding:70px;
+    color:white;
+    font-size:24px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 10px;
+}
+.campfire{
+    display:inline-block;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+}
+.campfire img{
+    width:300px;
+}
+.truck{
+    display:inline-block;
+    text-align:center;
+    font-family: 'Roboto Mono', monospace;
+}
+.truck img{
+    width:300px;
+}
+header{
+    text-align:center;
+}
+footer{
+    background-color:#F9E7DC;
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+.mountains img{
+    display:inline-block;
+    margin:0 auto;
+    width:2000px;
+    height:500px;
+    object-fit:cover;
 }
