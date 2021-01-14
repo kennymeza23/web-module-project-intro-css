@@ -1,0 +1,20 @@
+.intro{
+    text-align:center;
+    border:1px solid black;
+    margin-left: 500px;
+    display:inline-block;
+    font-size:24px;
+    margin-bottom:100px;
+}
+.headerPic{
+    width:200px;
+    border-radius: 100px;
+    margin:100px;
+}
+.nav a{
+    text-align:center;
+    padding:5px;
+    margin:100px 200px;
+    border:1px solid black;
+    border-radius:5px;
+}
